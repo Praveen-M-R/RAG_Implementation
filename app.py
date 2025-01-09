@@ -6,7 +6,7 @@ from llama_index.embeddings.mistralai import MistralAIEmbedding
 
 app = Flask(__name__)
 
-api_key = "jCQDmCM6T3mx85GUFFNFt8BNAEpwbzv9"
+api_key = "Your_api"
 
 # Load the vector store index
 with open("vector_store_index.pkl", "rb") as f:
